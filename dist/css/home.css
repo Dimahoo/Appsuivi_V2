@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body.loggedin {
+    background-color: #fffbff;
+}
+.content h2 {
+    padding: 25px 10px;
+    font-size: 22px;
+    border-bottom: 1px solid #e0e0e3;
+    color: #4a536e;
+}
+.menu button {
+    width: 300px;
+    margin: 10px;
+}
+.nbrclient{
+    width: 200px !important;
+}
+.clientNumberchart {
+    width:200px !important;
+    height:300px !important;
+}
+.statisbarchart {
+    width:500px !important;
+    height:300px !important;
+}
+.numBeneStagchart {
+    width:200px !important;
+    height:300px !important;
+}
