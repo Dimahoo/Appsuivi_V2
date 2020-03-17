@@ -2,14 +2,28 @@
 <project version="4">
   <component name="PublishConfigData" serverName="Appsuivi_V2">
     <serverData>
+      <paths name="Appsuivi">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="Appsuivi_V2">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/appsuivi_V2" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
       <paths name="Ecommerce">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="XAMPP Apache">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

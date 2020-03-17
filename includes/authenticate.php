@@ -36,9 +36,9 @@ if ($sql->num_rows > 0) {
 
     header('Location: ../home.php');
 } else {
-    $_SESSION['message'] = 'Username / Password is incorrect!';
+    $_SESSION['message'] = 'Username / Password is incorrect !';
 
     $conn->close();
-    header("location: ../errorlogin.php");
+    header("location: ../errorlogin_V2.php");
 }
 ?>
